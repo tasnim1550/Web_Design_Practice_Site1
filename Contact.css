@@ -1,0 +1,83 @@
+.name{
+    width: 100%;
+    border: none;
+    background-color: #fbfbfb;
+    padding: 10px;
+    border-radius: 3px;
+   box-shadow: 0 0 5px #ddd;
+}
+.phone{
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    background-color: #fbfbfb;
+    padding: 10px;
+    border-radius: 3px;
+   
+}
+.maile{
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    background-color: #fbfbfb;
+    border-radius: 3px;
+    margin: 20px 0;
+   
+}
+textarea{
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    background-color: #fbfbfb;
+    padding: 10px;
+    border-radius: 3px;
+ 
+}
+.name:focus,.phone:focus,.maile:focus,textarea:focus{
+    outline: none;
+}
+form{
+    margin-bottom: 30px;
+}
+.btn1{
+    text-decoration: none;
+}
+.drop h3,.dropu h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+.drop p{
+   margin: 20px 0;
+}
+.drop_img img{
+   border-radius: 5px;
+   box-shadow: 0 0 5px #f5f5f5;
+}
+.map{
+    margin: 50px 0;
+}
+.map img{
+    background-color:seagreen;
+}
+
+/** Contact 2**/
+.drop_icon{
+    margin-top: 126px;
+}
+.test{
+    margin: 30px 0;
+}
+.fao {
+    margin-bottom: 36px;
+}
+.fhon{
+    font-size: 25px;
+    color:#17d9a6;
+}
+
+i.fas.fa-phone-alt.fhon ,.fhon,.fhon{
+    line-height: 38px;
+}
+i.fas.fa-envelope.fhon {
+    line-height: 41px;
+}
+i.fab.fa-internet-explorer.fhon {
+    line-height: 41px;
+}

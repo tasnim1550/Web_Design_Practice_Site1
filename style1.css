@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Khula', sans-serif;
+    color:#999999;
+    font-size: 15px;
+}
+body{
+    font-family: 'Khula', sans-serif;
+}
+
+
+
+/** Menu **/
+.head {
+    padding: 0px 15px 0 15px;
+}
+.hero_area,.Hero_area{
+    margin-bottom: 40px;
+}
+
+
+
+    .menubar ul{
+        padding:0;
+    }
+    .menubar ul li{
+        list-style-type: none;
+        float: left;
+        width: 100px;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+    } 
+    .menubar ul li ul li{
+        list-style-type: none;
+        float: left;
+        left:0;
+        width: 200px;
+        text-align: left;
+        height: 40px;
+        line-height: 40px;
+      
+        background-color: #ddd;
+        z-index: 4;
+        position: relative;
+        
+    } 
+    .menubar ul li ul{
+        display: none;
+        
+    }
+    .menubar ul li a{
+        text-decoration: none; 
+        padding: 5px; 
+        padding-left: 10px;
+    }
+    
+    .menubar ul li ul li a{
+        padding-left: 15px;
+    }
+    .menubar ul li:hover> ul{
+        display: block;
+    }
+    .menubar ul li ul li:hover{
+        background-color: #17d9a6;
+        color: white;
+        border-radius: 5px 2px 5px 0;
+       
+    }
+    .menubar ul li ul li:hover> a{
+        color: white;
+        
+    }
+
+
+/**Button**/
+.btn1{
+    background-color: #17d9a6;
+    border: none;
+    padding: 16px 15px;
+        
+    }
+
+    .btn2{
+        text-align: center;
+        margin-top:35px;
+    }
+    .btn2 p a{
+        text-decoration: none;
+     width: 50%;
+    }
+    .btn2 p a span{
+        color:#10d7a3;
+        margin-right: 10px;
+       
+    }
+    .btn2 p a i{
+        color:#10d7a3;
+        
+    }
+/**image**/
+.imge img{
+    width: 100%;
+    height: 100%;
+}
+.imag{
+    position: relative;
+    max-width: 475px;
+}
+.imeg{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70%;
+}
+.emeg{
+    position: absolute;
+    left: 0;
+    top: 83px;
+    width: 70%;
+}
+/*** Others  ***/
+.Aboutus {
+    margin-top: 85px;
+    line-height: 25px;
+}
+
+.cont {
+    margin-top: 105px;
+}
+.cont p {
+    margin: 30px 10px;
+    font-size: 15px;
+}
+
+.cont h2 {
+    font-size: 26px;
+    margin: 0 10px;
+}
+
+.btn3{
+    background-color: #06d6a0;
+}
+/*** Heroarea &  CTA  ***/
+
+
+.hero-color-1,.hero-color-6,.hero-color-7,.hero-color-8,
+.hero-color-9,.bg-color-3,.bg-color-5,.bg-color-7,.hero-color-13,.team-color-5
+,.hero-color-17,.contact-color-1{
+    position: relative;
+    background-color: #333;
+    padding: 170px 0;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cta-color-1,.cta-color-6,.cta-color-7,.cta-color-8,
+.cta-color-9,.bg-color-4,.bg-color-6,.bg-color-8,.cta-color-13,
+.cta-color-17{
+    position: relative;
+    background-color: #333;
+    padding: 80px 0;
+    z-index: 1;
+    margin: 85px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-color-1{
+    background-image: url(img/service5/hero.png); 
+    }
+.cta-color-1{
+    background-image: url(img/service5/last.png); 
+        }
+
+.hero-color-6,.hero-color-7{
+    background-image: url(img/service6/hero.jpg); 
+     }
+.cta-color-6,.cta-color-7{
+    background-image: url(img/service6/last.jpg); 
+        }
+.hero-color-8{
+    background-image: url(img/Case_study_v1.jpg); 
+    }
+.cta-color-8{
+    background-image: url(img/Case_study_last.jpg); 
+    }
+        
+.hero-color-9{
+        background-image: url(img/service5/hero.png); 
+        }
+.cta-color-9{
+        background-image: url(img/service5/last.png); 
+            }
+        
+.bg-color-3{
+    background-image: url(img/Case_Study_Details.jpg); 
+    }
+.bg-color-4{
+    background-image: url(img/Case_Study_Details4.jpg); 
+    }
+.bg-color-5{
+    background-image: url(img/blog/hero.jpg); 
+    }
+.bg-color-6{
+    background-image: url(img/blog/last.jpg); 
+    }
+
+.bg-color-7{
+    background-image: url(img/blog/blog-hero.jpg); 
+    }
+.bg-color-8{
+    background-image: url(img/blog/last.jpg); 
+    }
+
+.hero-color-13{
+    background-image: url(img/about/hero.jpg); 
+        }
+.cta-color-13,.cta-color-4{
+    background-image: url(img/blog/last.jpg); 
+    }
+.team-color-5{
+    background-image: url(img/about/team.jpg); 
+    }
+.cta-color-17{
+    background-image: url(img/17.Pricing_Tables_cta.jpg);
+} 
+.hero-color-17{
+    background-image: url(img/Pricing_Tables_hero.jpg);
+}  
+.contact-color-1{
+    background-image: url(img/Contact_us_v1.jpg);
+}    
+.hero-color-1:after,.hero-color-6:after,.hero-color-7:after,.hero-color-8:after,
+.hero-color-9:after,.bg-color-3:after,.bg-color-5:after,.bg-color-7:after,
+.hero-color-13:after,.team-color-5:after,.hero-color-17:after,.contact-color-1:after{
+        background-color: #333;
+        position: absolute;
+        content: "";
+        opacity: 0.6;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: .4;
+        
+}
+.cta-color-1:after,.cta-color-6:after,.cta-color-7:after,.cta-color-8:after,
+.cta-color-9:after,.bg-color-4:after,.bg-color-6:after,.bg-color-8:after,.cta-color-13:after,
+.cta-color-17:after,.cta-color-4:after{
+    background-color: #333;
+    position: absolute;
+    content: "";
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .4;
+}
+
+
+
+
+.hero-color-1:after,.hero-color-6:after,.hero-color-7:after,.hero-color-8:after,
+.hero-color-9:after,.bg-color-3:after,.bg-color-5:after,.bg-color-7:after,
+.hero-color-13:after,.team-color-5:after,.hero-color-17:after,.contact-color-1:after{
+    background-color: #073b4c;
+    opacity: .4;
+    
+}
+.cta-color-1:after,.cta-color-6:after,.cta-color-7:after,.cta-color-8:after,
+.cta-color-9:after,.bg-color-4:after,.bg-color-6:after,.bg-color-8:after,.cta-color-13:after,
+.cta-color-17:after,.cta-color-4:after{
+    background-color: #073b4c;
+    opacity: .6;
+}
+
+
+.CTA_item p span,.hero_item p span{
+    display: block;
+    color: white;
+    font-size: 22px;
+}
+.hero_item p,.CTA_item p{
+    font-size: 22px;
+    color: white;
+}
+.hero_item h2,.hero_item p,.CTA_item p ,.CTA_item h2{
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.hero_item h2,.CTA_item h2{
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 600;
+}
+    
+
+/*** BoxService  ***/
+
+.box1:hover {
+    border: 1px solid #06d6a0;
+    
+}
+.box1:hover h3,.box1:hover .fas,.box1:hover a,.box1:hover h4 {
+    color: #17d9a6;
+}
+ 
+
+/*** Testimonial  ***/
+
+/***     How it works  ***/
+.howit{
+    margin-top: 245px;
+    line-height: 25px;
+}
+.firstcontent {
+    margin: 30px 0;
+}
+.secondcontent{
+    margin-top: 40px;
+}
+.firstcontent h2 ,.secondcontent h2{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+/*** carousel ***/
+.single_item1{
+    background-image: url(img/Service_details7/caro1.png);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center;
+    
+ }
+ .single_item2{
+    background-image: url(img/Service_details7/caro2.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+      
+ }
+ .single_item3{
+    background-image: url(img/Service_details7/caro3.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    
+ }
+ .single_item4{
+    background-image: url(img/Service_details7/caro4.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+ }
+ .single_item5{
+    background-image: url(img/Service_details7/caro5.png);
+    width: 100%;
+    height: 300px; 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;  
+ }
+ .item1{
+    text-align: center; 
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(#10d7a3,#10d7a3);
+    opacity: 0;
+    position: relative;
+    padding: 40px;
+    margin-bottom: 12px;
+ }
+
+ .item1 a{
+     text-decoration: none;
+     padding: 15px;  
+     border-radius: 5px;
+    
+     width: 50%;
+     text-align: center;
+ }
+ .intro h2{
+     margin-top: 50px;
+     font-size: 20px;
+ }
+.intro h2, .intro p, .intro p a i{
+    color: white;
+}
+ 
+ .item1 a span,.item1 a span i{
+    color: #373737;
+ }
+ .single_item1:hover .item1,.single_item2:hover .item1,.single_item3:hover .item1,.single_item4:hover .item1,.single_item5:hover .item1{
+    opacity: 0.9;
+    transition: 0.5s;
+    background-color: #10d7a3;
+    
+}
+
+.intro{
+    text-align: center;
+    margin-top: 30px;
+}
+.intro h2{
+    font-size: 18px;
+}
+.intro p{
+   font-size: 14px;
+}
+
+
+/****    pricing       ****/
+
+.doler p span{
+    display: block;
+}
+.pro1:hover hr,.pro1:hover .basic p{
+    color:  #10d7a3;
+}
+.pro1:hover{
+    border: 1px solid #10d7a3;
+}
+
+.pro1{
+    padding: 25px 0px;
+    text-align: center;
+    border: 1px solid #ddd;
+} 
+
+.purchase .btn1 {
+    width: 43%;
+}
+
+.pro1 h3{
+    font-size: 20px;
+    color:#373737;
+}
+.pro1:hover{
+    border: none;
+    box-shadow: 6px -5px 25px rgba(0, 0, 0, 0.1),  -6px 5px 25px rgba(0, 0, 0, 0.1);
+}
+.pro1:hover .head h2, .pro1:hover .basic p,.pro1:hover h3{
+    color: #10d7a3;
+}
+.doler p span,.grab p span{
+    display: block;
+}
+.section{
+    background-color: #ffff;
+}
+
+.free_seo{
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.free_seo h2{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Khula', sans-serif;
+    color:#999999;
+    font-size: 15px;
+}
+html,body{ 
+    font-family: 'Khula', sans-serif;
+    height: 100%;
+}
+.herOarea h1{
+    font-size: 56px;
+    color: white;
+}
+.herOarea p {
+    color: white;
+}
+
+.menubar ul li {
+    list-style-type: none;
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 27px;
+    line-height: 27px;
+    }
+    .menubar ul li ul li{
+    list-style-type: none;
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    z-index: 4;
+    position: relative;
+    }
+
+
+.btn3{
+    background-color: #06d6a0;
+}
+
+
+
+.home-color-5{
+    position: relative;
+    z-index: 1;
+   margin: 85px 0;
+   padding: 55px 0;
+    
+}
+
+i.fas.fa-play-circle {
+    font-size: 50px;
+    color: white;
+}
+.hero-color-2{
+    background-image: url(img/Homepage_version_03_hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .hero-color-3{
+        background-image: url(img/17.Pricing_Tables_cta.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+    .home-color-5{
+    background-image: url(img/Homepage_version_03_cta.jpg);
+}
+
+
+.hero-color-3:after,.home-color-5:after,.hero-color-3:after{
+    background-image: linear-gradient(to right,#2969e6,#24ccf4);
+        position: absolute;
+        content: "";
+        opacity: 0.2;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: .9;
+        
+}
+.menubar ul li a{
+    color: white;
+    padding: 0px;
+    padding-left: 0px;
+}
+.header h1,.header p{
+    color: white;
+    font-weight: 400;
+}
+.hero-color-2:after,.home-color-5:after,.hero-color-3:after{
+    background-image: linear-gradient(to right,#2969e6,#24ccf4);
+    opacity: .9;
+    
+}
+.herOarea{
+    height: 100%;
+    display: table;
+    width: 100% ;
+    position: relative;
+    z-index: 1;
+}
+.herOarea:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.9;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+.wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+.homepageSlides,.homepageSlides div{
+    height: 100%;
+}
+.homepageSlides div.wrapper,.homepageSlides div.wrapper div,
+.homepageSlides div.owl-controls,.homepageSlides div.owl-controls div{
+    height: auto;
+}
+
+.homepageSlides .owl-prev{
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    font-size: 40px;
+    color: white;
+}
+.homepageSlides .owl-next {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+}
+.homepageSlides   .owl-carousel .owl-nav button.owl-next{
+    left: auto;
+    right: 50px;
+}
+.owl-carousel .owl-nav button.owl-next span,.owl-carousel .owl-nav button.owl-prev span {
+    font-size: 50px;
+    color: white;
+    opacity: 0.7;
+}
+.header.header-absolute {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.same{
+    padding: 12px 30px;
+    width: 300px;
+    border-radius:5px;
+    border:none;
+    border:1px solid #8888;
+    margin-right:16px;
+    margin-bottom: 10px;
+}
+input.btn1,.btn1{
+    padding: 13px 20px;
+    background-color: #06d6a0;
+}
+.about_content {
+    margin-left: 63px;
+    margin-top: 50px;
+    line-height: 26px;
+}
+.about_content h2{
+    font-size: 24px;
+}
+.ABOUT_US{
+    margin: 80px 0;
+}
+.getFreeSeo{
+    margin-top: 40px;
+}
+.intro h2{
+    font-size: 20px;
+}

@@ -1,0 +1,673 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  
+  .slicknav_menu {
+    display: none;
+}
+    
+  }
+  
+  /* 
+  Medium layout
+  */
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .btn1 {
+      padding: 15px 9px;
+      border-radius: 3px;
+      font-size: 14px;
+  }
+  
+.title {
+  margin: 46px 0;
+}
+
+.menubar ul li {
+  
+  width: 88px;
+}
+.menubar ul li a {
+  text-decoration: none;
+  color: #888888;
+  padding: 0px;
+  padding-left: 0px;
+}
+.menubar ul li ul li {
+  width: 200px;
+}
+
+.item a {
+    
+    padding: 11px;
+    top: 43%;
+    left: 25%;
+    right: 25%
+}
+.item2 a {
+  top: 40%;
+  left: 15%;
+  right: 19%;
+}
+.about_content .btn1{
+  padding: 9px 9px;
+}
+.about_content {
+  margin-left: 82px;
+}
+.project_content {
+  margin-top: 102px;
+  margin-left: 128px;
+  line-height: 25px;
+}
+.introduce {
+  margin-left: 0px;
+}
+.conta {
+  margin-left: 50px;
+}
+.feach {
+  margin-left: 121px;
+  margin-top: 40px;
+}
+
+form input[type="text"],form input[type="number"],form input[type="email"],form input[type="url"]{
+   
+  width: 100%;
+}  
+.singleitem p span,.CTA_item p span{
+  display: inline;
+  
+}
+.side h2 {
+  font-size: 42px;
+  
+}
+
+
+.people img{
+  width: 100%;
+}
+.box1 {
+  padding: 15px 9px;
+}
+.box2 {
+  width: 231px;
+}
+.cta {
+  padding: 0px 44px 28px 44px;
+}
+.pricing {
+  margin-top: 62px;
+  margin-bottom: 80px;
+}
+.doler {
+  margin-bottom: 50px;
+}
+footer {
+  line-height: 49px;
+}
+ footer p {
+ 
+  margin-bottom: 0rem;
+}
+.footer a i {
+  margin-right: 4px;
+}
+.cont {
+  margin-top: 74px;
+  margin-left: 50px;
+}
+.howit {
+  margin-top: 151px;
+}
+.firstcontent {
+  margin: 5px 0;
+}
+.secondcontent {
+  margin-top: 0px;
+}
+.firstcontent h2, .secondcontent h2 {
+  margin-bottom: 0px;
+}
+.slicknav_menu {
+  display: none;
+}
+.herOarea h1 {
+  font-size: 33px;
+  color: white;
+  margin-top: 50px;
+}
+    
+  }
+  
+  /* 
+    tablet layout
+  */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    .website form input[type="url"], .website form input[type="text"], .website form input[type="email"] {
+      width: 30%;
+  }
+    .top5reason a {
+      text-decoration: none;
+      width: 77px;
+      height: 42px;
+      border-radius: 26px;
+      padding: 10px;
+      margin-right: 10px;
+  }
+    .people img{
+      width: 100%;
+    }
+   .logo{
+     text-align: center;
+   }
+   .text {
+    text-align: center;
+}
+.side h2 {
+  margin-top: -24px;
+ 
+}
+.title {
+  margin: 46px 0;
+}
+
+form input[type="text"],form input[type="number"],form input[type="email"],form input[type="url"]{
+   
+  width: 100%;
+} 
+.btn1 {
+  padding: 13px 11px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.heroarea {
+  margin-bottom: 35px;
+}
+
+.imu {
+  text-align: left;
+  margin-top: 40px;
+}
+.box1 {
+  padding: 23px 11px;
+    
+  }
+  .link {
+    text-align: center;
+}
+.col-lg-9 h2{
+  text-align: center;
+}
+.online {
+  margin-top: -33px;
+}
+
+.title {
+  margin: 38px 0;
+}
+.section {
+  margin: 43px 0;
+  padding-bottom: 15px;
+}
+.testimonial {
+  padding-bottom: 10px;
+}
+.pricing {
+  margin-top: 45px;
+  margin-bottom: 63px;
+}
+.pro1 {
+  padding: 16px 0px;
+  margin-top: 20px;
+}
+
+.doler {
+  margin-bottom: 32px;
+}
+
+.box2 {
+  
+  margin-bottom: 30px;
+}
+.margin_top{
+margin-top: 30px;
+}
+
+
+.CTA_item p span{
+  display: inline;
+}
+.howit {
+  margin-top: 0px;
+}
+.cont {
+  margin-top: 523px;
+}
+
+
+.item1 a {
+left: 132px;
+}
+.slicknav_menu {
+  display: block;
+}
+.menubar {
+  display: none;
+}
+.logo img {
+  margin-bottom: 23px;
+}
+.same{
+  width: 51%;
+}
+.padding_top50 .btn1{
+  margin-left: 280px;
+display: block;
+text-align: center;
+}
+.padding_top50{
+  text-align: center;
+}
+.about_content {
+  margin-left: 0px;
+}
+.feach {
+  margin-left: 0px;
+  margin-top: 40px;
+}
+.project_content {
+  margin-left: 0px;
+  
+}
+.introduce {
+  margin-left: 50px;
+}
+input.phone {
+  margin-top: 20px;
+}
+.margin-10{
+  margin-bottom: 42px;
+}
+.drop h3, .dropu h3 {
+  margin-top: 15px;
+}
+.hero-color-1, .hero-color-6, .hero-color-7, .hero-color-8, .hero-color-9, .bg-color-3, .bg-color-5, .bg-color-7, .hero-color-13, .team-color-5, .hero-color-17, .contact-color-1 {
+
+  padding: 70px 0;
+}
+.herOarea h1 {
+  font-size: 25px;
+  color: white;
+  margin-top: 70px;
+}
+#trafficMenu {
+  margin-top: 0px;
+}
+.wrapper h1 {
+  margin-top: 150px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+  .menua{
+    display: contents;
+    
+}
+.logo-19{
+  margin-top: 20px;
+}
+  .logo{
+    text-align: center;
+  }
+  .text {
+   text-align: center;
+}
+.btn1 {
+ padding: 13px 11px;
+ border-radius: 3px;
+ font-size: 14px;
+}
+.heroarea {
+ margin-bottom: 35px;
+}
+.imu {
+ text-align: left;
+ margin-top: 40px;
+}
+.box1 {
+ padding: 23px 11px;
+   
+ }
+ .link {
+   text-align: center;
+}
+.col-lg-9 h2{
+ text-align: center;
+}
+.online {
+ margin-top: -33px;
+}
+
+.title {
+ margin: 38px 0;
+}
+.section {
+ margin: 43px 0;
+ padding-bottom: 15px;
+}
+.testimonial {
+ padding-bottom: 10px;
+}
+.pricing {
+ margin-top: 45px;
+ margin-bottom: 63px;
+}
+.pro1 {
+ padding: 16px 0px;
+ margin-top: 20px;
+}
+
+.doler {
+ margin-bottom: 32px;
+}
+.awesome,.lastsection1 {
+  
+  margin-bottom: 20px;
+}
+footer {
+  line-height: 49px;
+}
+.testimonial {
+  margin-top: 11px; 
+}
+.grab {
+  padding: 13px 0;
+}
+.cta {
+  padding: 0px 44px 28px 44px;
+}
+.people img{
+  width: 100%;
+}
+
+.home img {
+  width: 100%;
+}
+.hero_item h2, .CTA_item h2 {
+  font-size: 28px;
+}
+.hero_item p, .CTA_item p, .project_content h2, .challange_content1 h2, .challange_content2 h2 {
+  font-size: 18px;
+}
+.CTA_item p span, .hero_item p span {
+  font-size: 18px;
+}
+
+.cta-color-1, .cta-color-6, .cta-color-7, .cta-color-8, .cta-color-9, .bg-color-4, .bg-color-6, .bg-color-8, .cta-color-13, .cta-color-17 {
+
+  padding: 36px 0;
+}
+.hero_item h2 span {
+  font-size: 26px;
+}
+.padding-117 {
+  padding-top: 36px;
+}
+.service-section:before {
+  display: none;
+}
+.service-section:after{
+  width: 100%;
+  
+}
+
+}
+
+
+
+   /* 
+    Mobile layout
+  */
+  @media only screen and (max-width: 767px) {
+    
+    .service-section:before {
+      display: none;
+    }
+    .service-section:after{
+      width: 100%;
+      
+  }
+
+
+    .website form input[type="url"], .website form input[type="text"], .website form input[type="email"] {
+      width: 24%;
+  }
+
+    .wrapper h1 {
+      margin-top: 110px;
+    }
+    .menubar ul li a {
+      text-decoration: none;
+      color: #888888;
+      padding: 0 7px;
+  }
+
+  .box2 {
+    width: 100%;
+    height: 250px;
+    background-color: #fbfbfb;
+    margin-bottom: 30px;
+}
+.awesome {
+  border: 1px solid #fbfbfb;
+  padding: 35px 15px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.item a {
+  left: 170px;
+}
+.side h2 {
+  margin-top: -24px;
+ 
+}
+.people img{
+  width: 100%;
+}
+.awesome {
+  
+  margin-bottom: 20px;
+}
+.singleitem p span,.title span,.doler p span,.grab p span{
+  display: inline;
+  
+}
+.title,.doler,.grab{
+  text-align: left;
+}
+.hero_item p span,.CTA_item p span {
+  display: inline;
+}
+.CTA_item {
+  margin-top: 31px;
+}
+.howit {
+  margin-top: 0px;
+}
+.cont {
+  margin-top: 523px;
+}
+.slicknav_menu {
+  display: block;
+}
+.menubar {
+  display: none;
+}
+.logo img {
+  margin-bottom: 23px;
+}
+button.btn1.text-right {
+  margin-bottom: 20px;
+}
+.home img {
+  width: 100%;
+}
+.feach {
+  margin-left: 0px;
+}
+.single_row h3 {
+  margin-top: 20px;
+}
+
+.about_content {
+  margin-left: 0px;
+}
+.intro3{
+  text-align: left;
+}
+.project_image img, .challange_image img {
+  width: 100%;
+}
+.introduce h3 {
+  margin-top: 26px;
+  margin-left: 0px;
+}
+.introduce{
+  margin-left: 0px;
+}
+
+.drop h3, .dropu h3 {
+  margin-top: 15px;
+}
+.name{
+  margin-bottom: 20px;
+}
+.hero-color-1, .hero-color-6, .hero-color-7, .hero-color-8, .hero-color-9, .bg-color-3, .bg-color-5, .bg-color-7, .hero-color-13, .team-color-5, .hero-color-17, .contact-color-1 {
+
+  padding: 70px 0;
+}
+.project_content {
+  margin-left: 0px;
+}
+.project, .challange {
+  margin: 26px 0;
+}
+.card1 {
+  margin-top: 10px; 
+}
+.herOarea h1 {
+  font-size: 20px;
+  color: white;
+  margin-top: 80px;
+}
+.herOarea p {
+  font-size: 14px;
+  
+}
+#trafficMenu {
+  margin-top: 0px;
+}
+.fot_item{
+  margin-bottom: 30px;
+}
+
+
+  }
+  
+  
+  
+
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 480px) and (max-width: 767px) {
+    
+
+
+   
+
+    .item1 a {
+      left: 155px;
+      }
+      .top5reason a {
+        text-decoration: none;
+        width: 117px;
+        height: 50px;
+        border-radius: 26px;
+        padding: 7px;
+        margin-right: 0px;
+      }
+      
+    
+  }
+
+  @media (max-width: 480px) {
+    .herOarea h1 {
+      font-size: 16px;
+      color: white;
+      margin-top: 100px;
+    }
+    .herOarea p {
+      font-size: 10px;
+      
+    }
+    .item a {
+      left: 130px;
+  }
+  .introduce {
+    margin-left: 0px;
+    margin-top: 120px;
+}
+.shah img {
+  margin-left: 25px;
+}
+  
+  .top5reason a {
+    text-decoration: none;
+    width: 103px;
+    height: 40px;
+    border-radius: 26px;
+    padding: 5px;
+    margin-right: 0px;
+  }
+  
+  }
+  @media (max-width: 347px){
+    .top5reason a {
+      text-decoration: none;
+      width: 103px;
+      height: 40px;
+      border-radius: 26px;
+      padding: 4px;
+      margin-right: 15px;
+    }
+    i.fab.fa-pinterest-p {
+      margin-top: 20px;
+  }
+  }
+
+  @media (max-width: 377px){
+  .top5reason a {
+    text-decoration: none;
+    border-radius: 26px;
+    padding: 8px;
+    margin-right: 15px;
+}
+i.fab.fa-pinterest-p {
+  margin-top: 20px;
+}
+}

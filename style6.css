@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Khula', sans-serif;
+    color:#999999;
+    font-size: 15px;
+}
+body{
+    font-family: 'Khula', sans-serif;
+}
+
+/*** Heroarea  ***/
+.menu {
+    padding: 13px 0;
+}
+.menubar ul li {
+    list-style-type: none;
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 16px;
+    line-height: 16px;
+}
+.menubar ul li ul li{
+    list-style-type: none;
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+.header {
+        padding: 0px 15px 0 15px;
+    }
+
+    .box1 h1{
+        font-size: 70px;
+        color: #d1d1d1;
+    }
+
+    .box1:hover {
+        border: 1px solid #06d6a0;
+        
+    }
+    .box1:hover a,.box1:hover h4,.box1:hover .fas{
+        color: #17d9a6;
+    }
+     
+.header_item{
+    padding: 10px;
+}
+.header_item a {
+    text-decoration: none;
+    margin-right: 15px;
+    color:#999999;
+}
+.btn1{
+   
+    background-color: #06d6a0;
+    border: none;
+    padding: 10px 15px;
+    
+}
+
+
+.hero_item h2{
+    font-size: 36px;
+    color: #ffffff;
+}
+.hero_item p,.hero_item p span{
+    font-size: 22px;
+    color:#ffffff ;
+}
+.hero_item p span{
+    display: block;
+}
+.Hero_area{
+    position: relative;
+    background-color: teal;
+    padding: 150px 0;
+
+}
+.Hero_area{
+    background-image: url(img/service6/hero.jpg);
+    
+    }
+    
+
+.Hero_area:after{
+        background-color: black;
+        position: absolute;
+        content: "";
+        opacity: 0.5;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+}
+.text-center{
+    position: relative;
+    z-index: 3;
+    color: white;
+}
+
+
+/***     CTA   ***/
+.Cta{
+    margin: 90px 0px;
+    height: 300px;
+    background-image: url(img/service6/last.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+    background-color: rgba(0, 0, 0,0.8)
+}
+
+.inner{
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.6)
+}
+.CTA_item{
+    margin-top: 50px;
+}
+.CTA_item h2{
+    font-size: 36px;
+    color:#ffffff;
+}
+.CTA_item p {
+    color: #e3eaec;
+    font-size: 16px;
+    margin: 20px 0px 25px 0px;
+}
+.CTA_item p span{
+    display: block;
+    color: #e3eaec;
+    font-size: 16px;
+}
+

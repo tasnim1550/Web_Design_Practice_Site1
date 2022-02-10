@@ -1,0 +1,63 @@
+.fot_item h2 {
+    font-size: 20px;
+    text-align: left;
+}
+.social h3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.icona span {
+  margin-right: 20px;
+  
+}
+.menua{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button.btn1.btn19 {
+    margin-top: 15px;
+}
+
+.icona span {
+    margin-right: 39px;
+}
+.panel-default>.panel-heading {
+    background-color: transparent;
+   
+}
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a {
+  text-decoration: none;
+}
+
+.panel-heading a:after{
+content: "+";
+position: absolute;
+top: 13px;
+right: 10px;
+font-size: 20px;
+font-weight: 400;
+}
+.panel-heading a[aria-expanded="true"]:after{
+    content: "-";
+    font-size: 30px;
+    }
+.panel-default {
+border-color: #ddd;
+position: relative;
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+border-top-color: transparent;
+}
+.panel-group .panel+.panel {
+margin-top: -0.9px;
+}
+.panel-heading {
+padding: 15px 15px;
+border-bottom: 1px solid transparent;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+
+}
